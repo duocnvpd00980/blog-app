@@ -1,12 +1,15 @@
 import Container from '@/components/Container'
-import BlogList from './BlogList'
+import BlogApp from './BlogApp'
 import BlogHeading from './BlogHeading'
+import BlogList from './BlogList'
 
 const BlogWidget = () => {
   return (
     <Container>
-      <BlogHeading />
-      <BlogList />
+      <BlogApp>
+        <BlogHeading />
+        <BlogList />
+      </BlogApp>
     </Container>
   )
 }

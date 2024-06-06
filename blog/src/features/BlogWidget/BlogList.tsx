@@ -1,7 +1,7 @@
 import MediaList from '@/components/MediaList'
 import BlogItem from './BlogItem'
 
-const BlogList = async () => {
+const BlogList = () => {
   return (
     <MediaList>
       <BlogItem />

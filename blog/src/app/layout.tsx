@@ -26,7 +26,7 @@ export default async function RootLayout({
       <body className={inter.className}>
         <NextIntlClientProvider messages={messages}>
           <ProviderLayout>{children}</ProviderLayout>
-         
+
           <Footer />
         </NextIntlClientProvider>
       </body>
