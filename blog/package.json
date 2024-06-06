@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
+    "lint": "next lint",
     "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,json,css,scss,md}'"
   },
   "dependencies": {
@@ -25,6 +25,7 @@
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@next/eslint-plugin-next": "^14.2.3",
     "@types/ms": "^0.7.34",
     "@types/node": "^20",
     "@types/react": "^18",
