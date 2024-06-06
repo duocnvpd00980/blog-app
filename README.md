@@ -1,2 +1,0 @@
-# blog-app
-FRONT-END TEST 2023
